@@ -4,7 +4,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { Image } from "antd";
 
-export const Header = () => {
+const Header = () => {
   const signIn = () => {};
   const signOut = () => {};
   return (
@@ -49,3 +49,4 @@ export const Header = () => {
     </header>
   );
 };
+export default Header;
