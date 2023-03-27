@@ -7,14 +7,7 @@ interface Props {
   padding?: string;
   noIcon?: boolean;
 }
-export const Button = ({
-  title,
-  onClick,
-  width,
-  loading,
-  padding,
-  noIcon,
-}: Props) => {
+const Button = ({ title, onClick, width, loading, padding, noIcon }: Props) => {
   return (
     <button
       className={`relative z-30 box-border inline-flex ease-linear ${
@@ -47,3 +40,4 @@ export const Button = ({
     </button>
   );
 };
+export default Button;

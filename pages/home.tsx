@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Hocs/Header";
-import { Landing } from "./component/Landing";
+import Landing from "./component/Landing";
 import { Tab } from "@headlessui/react";
 import ProductComponent from "./component/ProductComponent";
 import Basket from "./component/Basket";

@@ -1,8 +1,8 @@
 import React from "react";
-import { Button } from "./Button";
+import Button from "./Button";
 import { Image } from "antd";
 
-export const Landing = () => {
+const Landing = () => {
   return (
     <section className="sticky top-0 mx-auto flex h-screen max-w-[1350px] items-center">
       <div className="">
@@ -34,3 +34,4 @@ export const Landing = () => {
     </section>
   );
 };
+export default Landing;
