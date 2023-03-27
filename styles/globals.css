@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.borderGradient {
+  text-align: center;
+  padding-bottom: 5px;
+  background: linear-gradient(to right, green, #5c92f6) left bottom no-repeat;
+  background-size: 100% 2px;
+}

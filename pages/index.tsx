@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <div className="">
       <Head>
-        <title>Corn Store</title>
+        <title>Bap Store</title>
         <link rel="icon" href="/corn-store.jpeg" />
       </Head>
       <HomePage />
