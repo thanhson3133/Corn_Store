@@ -6,10 +6,8 @@ export default function Document() {
     <Html lang="en">
       <Head></Head>
       <body>
-        {/* <!-- Messenger Chat plugin Code --> */}
         <div id="fb-root"></div>
 
-        {/* <!-- Your Chat plugin code --> */}
         <div id="fb-customer-chat" className="fb-customerchat"></div>
         <Script
           id="messenger-tag"

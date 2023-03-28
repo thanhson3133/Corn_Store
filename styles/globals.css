@@ -8,3 +8,21 @@
   background: linear-gradient(to right, green, #5c92f6) left bottom no-repeat;
   background-size: 100% 2px;
 }
+
+/* style pagination */
+.ant-pagination-item-link span {
+  color: white;
+}
+.ant-pagination-item a {
+  color: white !important;
+}
+.ant-pagination .ant-pagination-item-active {
+  border-color: white !important;
+}
+
+.ant-pagination .ant-pagination-item-active a {
+  color: black !important;
+}
+.ant-pagination-item-link {
+  margin-top: -3px;
+}

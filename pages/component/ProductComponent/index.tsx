@@ -26,7 +26,7 @@ const ProductComponent = () => {
           onClick={handleAddBasket}
           className="flex h-16 w-16 flex-shrink-0 cursor-pointer items-center justify-center rounded-full bg-gradient-to-r from-green-500 to-blue-500 md:h-[70px] md:w-[70px]"
         >
-          <ShoppingCartOutlined className="text-4xl text-white -mt-2 -ml-1" />
+          <ShoppingCartOutlined className="text-4xl text-white -mt-1 -ml-1" />
         </div>
       </div>
     </div>

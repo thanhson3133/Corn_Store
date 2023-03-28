@@ -79,7 +79,7 @@ const Header = () => {
 
         <Link href={"/checkout"}>
           <div className="relative cursor-pointer">
-            <span className="absolute -right-6 top-4 z-50 mr-5 flex h-4 w-4 items-center justify-center rounded-full bg-gradient-to-r from-pink-500 to-violet-500 text-[10px] text-white">
+            <span className="absolute -right-6 top-4 z-50 mr-5 flex h-4 w-4 items-center justify-center rounded-full bg-gradient-to-r from-green-500 to-blue-500 text-[10px] text-white">
               3
             </span>
             <ShoppingCartOutlined className="text-2xl" />

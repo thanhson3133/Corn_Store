@@ -1,11 +1,11 @@
 import React from "react";
-import Button from "./Button";
+import Button from "../Button";
 import { Image } from "antd";
 
 const Landing = () => {
   return (
-    <section className="sticky top-0 mx-auto flex h-screen max-w-[1350px] items-center">
-      <div className="">
+    <section className="sticky top-0 w-full mx-auto flex h-screen max-w-[1350px] items-center">
+      <div className="w-1/2">
         <h1 className="-mt-40 text-5xl font-semibold tracking-wide lg:text-6xl xl:text-7xl">
           <span className="block bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent">
             Powered
@@ -23,12 +23,11 @@ const Landing = () => {
           </a>
         </div>
       </div>
-      <div className="relative pt-10 pl-20 hidden h-[450px] transition-all duration-500 md:inline lg:h-[650px] lg:w-[600px]">
+      <div className="relative hidden h-[450px] pt-10 transition-all duration-500 md:inline lg:h-[650px] lg:w-[600px]">
         <Image
           preview={false}
           src="/fruit.jpeg"
-          width={700}
-          className="rounded-xl"
+          className="rounded-xl object-contain w-full h-full"
         />
       </div>
     </section>
